@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* tag selector */
+        h1 {
+            color: red;
+        }
+        /* id selector */
+        #heading-1 {
+            color: blue;
+        }
+        /* class selector */
+        .heading {
+            color: green;
+        }
+        /* attribute selector */
+        [data-heading] {
+            color: pink;
+        }
+        /* universal */
+        * {
+            color: yellow;
+        }
+
+        /* 
+            กฎในการตั้งชื่อ
+            - จะต้องไม่ขึ้นต้นด้วยตัวเลข
+            - ควรจะเป็นภาษาอังกฤษเท่านั้น
+            - (-) ขึด ลบ (_) underscore ($) dollar sign
+        */
+    </style>
+</head>
+<body>
+    <h1>h1</h1>
+    <h1 id="heading-1">h1#heading-1</h1>
+    <h1 class="1heading">h1.heading</h1>
+    <h1 data-heading>h1[data-heading]</h1>
+
+    <h2 class="heading">heading 2</h2>
+
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <p>paragraph</p>
+</body>
+</html>
